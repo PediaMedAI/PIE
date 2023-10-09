@@ -8,41 +8,4 @@ To our best knowledge, PIE is the first of its kind to generate disease progress
 
 ![](./assets/progression/progression.gif)
 
-## Requirements    
-
-Install the newest PyTorch.      
-
-```
-conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia
-```
-
-```
-pip install -r requirements.txt
-```
-
-## Inference    
-
-
-
-### Dataset   
-
-
-
-### Sampling Script    
-
-```
-python run_pie.py \
-    --pretrained_model_name_or_path="CompVis/stable-diffusion-v1-4" \
-    --finetuned_path="path-to-finetune-stable-diffusion-checkpoint" \
-    --image_path="./assets/example_inputs/health.jpg" \
-    --mask_path="./assets/example_inputs/mask.png" \
-    --prompt="clinical-reports-about-any-diseases" \
-    --step=10 \
-    --strength=0.5 \
-    --guidance_scale=27.5 \
-    --seed=42 \
-    --resolution=512
-```
-
-
 
