@@ -1,8 +1,11 @@
 # PIE: Simulating Disease Progression via Progressive Image Editing    
 
-[Arxiv](https://arxiv.org/abs/2309.11745)     [HuggingFace](https://huggingface.co/papers/2309.11745)
+[Arxiv](https://arxiv.org/abs/2309.11745)         [HuggingFace](https://huggingface.co/papers/2309.11745)
 
 Official Implementation of "Simulating Disease Progression via Progressive Image Editing".   
+
+
+![](./assets/paper/pie.jpg)
 
 Disease progression simulation is a crucial area of research that has significant implications for clinical diagnosis, prognosis, and treatment. One major challenge in this field is the lack of continuous medical imaging monitoring of individual patients over time. To address this issue, we develop a novel framework termed Progressive Image Editing (PIE) that enables controlled manipulation of disease-related image features, facilitating precise and realistic disease progression simulation. Specifically, we leverage recent advancements in text-to-image generative models to simulate disease progression accurately and personalize it for each patient.    
 
@@ -26,6 +29,8 @@ pip install -r requirements.txt
 
 
 ### Sampling Script    
+
+Try new pretrained weight from MIMIC-CXR dataset [here](https://huggingface.co/IrohXu/stable-diffusion-mimic-cxr-v0.1)
 
 ```
 python run_pie.py \
