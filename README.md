@@ -23,11 +23,6 @@ pip install -r requirements.txt
 ## Inference    
 
 
-
-### Dataset   
-
-
-
 ### Sampling Script    
 
 ```
@@ -44,5 +39,13 @@ python run_pie.py \
     --resolution=512
 ```
 
+## Reference      
 
+```
+@article{liang2023pie,
+  title={PIE: Simulating Disease Progression via Progressive Image Editing},
+  author={Liang, Kaizhao and Cao, Xu and Liao, Kuei-Da and Gao, Tianren and Ye, Wenqian and Chen, Zhengyu and Cao, Jianguo and Nama, Tejas and Sun, Jimeng},
+  year={2023}
+}
+```
 
