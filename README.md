@@ -1,6 +1,6 @@
 # PIE: Simulating Disease Progression via Progressive Image Editing    
 
-[Project Homepage](https://www.irohxucao.com/PIE/)    |    [Preprint](https://arxiv.org/abs/2309.11745)     |    [HuggingFace](https://huggingface.co/papers/2309.11745)
+[[Project Homepage](https://www.irohxucao.com/PIE/)]    |    [[Preprint](https://arxiv.org/abs/2309.11745)]     |    [[HuggingFace](https://huggingface.co/papers/2309.11745)]
 
 Official Implementation of "Simulating Disease Progression via Progressive Image Editing".   
 
