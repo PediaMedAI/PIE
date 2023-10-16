@@ -152,19 +152,20 @@
 
 
 <!-- Teaser video-->
-<!-- <section class="hero teaser">
+<section class="hero teaser">
   <div class="container is-max-desktop">
     <div class="hero-body">
-      <video poster="" id="tree" autoplay controls muted loop width="50%" style="text-align: center;">
-        <source src="static/videos/progression.mp4"
-        type="video/mp4">
-      </video>
+      <div style="display: flex; justify-content: center;"> <!-- Added this div to center video horizontally -->
+        <video poster="" id="tree" autoplay controls muted loop width="50%" style="margin: auto;"> <!-- Added margin: auto to center video vertically -->
+          <source src="static/videos/progression.mp4" type="video/mp4">
+        </video>
+      </div>
       <h2 class="subtitle has-text-centered">
         We leverage recent advancements in text-to-image generative models to simulate disease progression accurately and personalize it for each patient.
       </h2>
     </div>
   </div>
-</section> -->
+</section>
 <!-- End teaser video -->
 
 
@@ -192,22 +193,26 @@
     <div class="container">
       <div id="results-carousel" class="carousel results-carousel">
        <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/pie.jpg" alt="MY ALT TEXT"/>
+        <img src="static/images/pie.jpg" alt="MY ALT TEXT" class="centered-image"/>
         <h2 class="subtitle has-text-centered">
           Illustrative examples of disease progression simulation using PIE. The top progression sequence depicts a patient's heart increasing in size, indicating Cardiomegaly. The bottom sequence demonstrates the expanding mass areas in a patient's lung, indicating Edema.
         </h2>
       </div>
       <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/pipeline.jpg" alt="MY ALT TEXT"/>
+        <img src="static/images/pipeline.jpg" alt="MY ALT TEXT" class="centered-image"/>
         <h2 class="subtitle has-text-centered">
           Overview of the PIE inference pipeline. PIE is illustrated using an example of disease progression editing X-ray from a healthy state to cardiomegaly. For any given step n in PIE, we first utilize DDIM inversion to procure an inverted noise map. Subsequently, we denoise it using clinical reports imbued with progressive cardiomegaly information. The output of DDIM denoising serves as the input for step n+1, thus ensuring a gradual and controllable disease progression simulation. After simulating N steps, the image is converged to the final state.
         </h2>
       </div>
+      <div class="item">
+        <img src="static/images/show.png" alt="MY ALT TEXT" class="centered-image"/>
+        <h2 class="subtitle has-text-centered">
+          Disease Progression Simulation of PIE. The top progression is for Cardiomegarly. The middle progression is for Diabetic Retinopathy. The bottom progression is for Melanocytic Nevus.
+        </h2>
+      </div>
+      </div>
+    </div>
   </div>
-</div>
-</div>
 </section>
 <!-- End image carousel -->
 

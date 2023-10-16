@@ -134,4 +134,19 @@ body {
 }
 
 
+/* Styling for images */
+.centered-image {
+  display: block;
+  margin: 0 auto;
+  width: 60%;
+  height: 40%;
+  object-fit: cover;
+}
 
+/* Flex styling for the .item containers to vertically center content */
+.item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
