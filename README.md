@@ -49,10 +49,13 @@ python run_pie.py \
 ## Reference      
 
 ```
-@article{liang2023pie,
-  title={PIE: Simulating Disease Progression via Progressive Image Editing},
-  author={Liang, Kaizhao and Cao, Xu and Liao, Kuei-Da and Gao, Tianren and Ye, Wenqian and Chen, Zhengyu and Cao, Jianguo and Nama, Tejas and Sun, Jimeng},
-  year={2023}
+@misc{liang2023pie,
+      title={PIE: Simulating Disease Progression via Progressive Image Editing}, 
+      author={Kaizhao Liang and Xu Cao and Kuei-Da Liao and Tianren Gao and Wenqian Ye and Zhengyu Chen and Jianguo Cao and Tejas Nama and Jimeng Sun},
+      year={2023},
+      eprint={2309.11745},
+      archivePrefix={arXiv},
+      primaryClass={eess.IV}
 }
 ```
 
