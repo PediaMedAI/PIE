@@ -59,3 +59,12 @@ python run_pie.py \
 }
 ```
 
+## Development Timeline
+
+`10/01/2023` Release a new pretrained weight for MIMIC-CXR dataset [here](https://huggingface.co/IrohXu/stable-diffusion-mimic-cxr-v0.1).       
+`11/15/2023` Embed PIE with GPT-4V or LLaVA and release checkpoint demo. Update inference pipeline.        
+`11/28/2023` Kaizhao Liang and Wenqian Ye will present PIE at [UVa AIML Seminar](https://uvaml.github.io/).        
+`2024` Release PIE v2 and new checkpoint.       
+
+
+
